@@ -1,0 +1,110 @@
+body{
+    background:rgb(0, 132, 37);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0;
+    padding:20px;
+    display:flex;
+    justify-content: center;
+}
+.container{
+    width:95%;
+    max-width: 1200px;
+    
+    background-color: rgb(252, 252, 252);
+    padding:40px;
+    margin:0 auto;
+    border-radius:15px;
+    text-align: center;
+    border: 2px solid rgb(170, 255, 125);
+}
+img{
+    width:100%;
+  
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #0c2b02;
+}
+
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #99e954;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+
+input:focus, 
+select:focus {
+  border-color: #4CAF50;
+  outline: none;
+  background-color: #cdead4;
+}
+
+.barra-iconos {
+  display: flex;        
+  gap: 15px;            
+  padding: 10px;
+  justify-content: center; 
+  margin-bottom: 20px;
+}
+
+
+.barra-iconos a img {
+  width: 40px;         
+  height: auto;         
+  transition: transform 0.2s; 
+}
+
+
+.barra-iconos a img:hover {
+  transform: scale(1.1); 
+ 
+}
+.redes{
+    display:flex;
+    gap:15px;
+    padding:20px;
+    justify-content: center;
+
+}
+.redes a img {
+  width: 30px;         
+  height: auto;         
+  transition: transform 0.2s; 
+}
+.redes a img:hover {
+  transform: scale(1.1);
+ 
+}
+.noticias{
+    border-radius:15px;
+    border: #0c2b02;
+    background-color: #eaf7ed;
+}
